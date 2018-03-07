@@ -444,7 +444,7 @@ int convert( char *filename, char *mapname )
     fseek( file, 2 * N + 2 * P, SEEK_CUR );
     unsigned short int palettes[ 16 ][ 16 ][4];
 
-    char zero = true;
+    // char zero = true;
     for( int x = 0; x < 16; x++ )
     {
         for( int y = 0; y < 16; y++ )
