@@ -631,7 +631,7 @@ int convert( char *filename, char *mapname )
         // file2 << endl;
         fwrite( "\n", 1, 1, file2 );
     }
-    fwrite( "o skirt\n", 1, 7, file2);// << endl;
+    fwrite( "o skirt\n", 1, 8, file2);// << endl;
     for( usint x =0; x < Q+(R*2); x++ )
     {
         for( usint y = 0; y < 3; y++ )
